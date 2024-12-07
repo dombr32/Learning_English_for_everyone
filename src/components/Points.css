@@ -1,0 +1,15 @@
+.Points h5{
+    font-size: 38px;
+    color: #344054;
+    border-bottom: 3px solid #008080; 
+    /* max-width: fit-content; */
+}
+
+.Points span {
+    color: #344054;
+    font-size: 14px;
+}
+
+.Points {
+    text-align: center;
+}

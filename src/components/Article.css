@@ -1,0 +1,105 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+
+h2.nameArticle{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin-bottom: 24px;
+    margin-top: 8px;
+    border-bottom: 1px solid #008080;
+    max-width: max-content
+}
+
+.textArticle p {
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #475467;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin-bottom: 24px;
+    margin-top: 40px;
+}
+
+menu {
+    margin-left: 72px;
+}
+
+menu li {
+    margin-bottom: 4px;
+    width: 208px;
+    height: 36px;
+    padding-left: 30%;
+}
+
+menu a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 143%;
+    color: #667085;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+menu a:hover {
+    border-left: 2px solid #008080;
+    color: #008080;
+}
+
+img {
+    max-width: 80%;
+    max-height: 100vh;
+}
+
+.ActivePageLevel {
+    color: #008080;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #008080;
+    color: #fff;
+    font-size: 32px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #008080;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        display: block;
+        margin-top: 0;
+    }
+
+    menu {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    menu ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    menu li {
+        padding-left: 0;
+        width: auto;
+    }
+}
